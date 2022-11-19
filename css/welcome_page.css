@@ -1,6 +1,6 @@
 #welcome-page {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7)), url(../sources/bg2-offer.jpg);
+    background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7)), url(../sources/welcome_page/bg2-offer.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,11 +8,11 @@
 }
 
 .header1 {
-    padding-top: 10%;
+    padding-top: 20vh;
 }
 
 .header2 {
-    padding-top: 13%;
+    padding-top: 15vh;
 }
 
 .header1, .header2 {
@@ -29,29 +29,21 @@
 }
 
 .boundless {
-    margin-top: 20%;
-    margin-bottom: 10%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
     overflow: hidden;
     position: relative;
     border: none;
 }
 
-@media (min-width: 992px) {
+@media (orientation: landscape) {
     #welcome-page {
-        background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.6), rgba(10, 143, 196, 0.6)), url(../sources/bg-offer-4000.jpg);
+        background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.6), rgba(10, 143, 196, 0.6)), url(../sources/welcome_page/bg-offer-4000-compressed.jpg);
     }
 }
 
-@media (min-height: 360px) {
-    .header1 {
-        padding-top: 25%;
-    }
-
-    .header2 {
-        padding-top: 25%;
-    }
-
-    .boundless {
-        margin-top: 30%;
+@media (orientation: landscape) and (min-width: 1200px) {
+    #welcome-page {
+        background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.6), rgba(10, 143, 196, 0.6)), url(../sources/welcome_page/bg-offer-4000.jpg);
     }
 }
