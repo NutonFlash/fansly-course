@@ -1,0 +1,57 @@
+#welcome-page {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7)), url(../sources/bg2-offer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header1 {
+    padding-top: 10%;
+}
+
+.header2 {
+    padding-top: 13%;
+}
+
+.header1, .header2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header1 h1, .header2 h2 {
+    color: whitesmoke;
+}
+
+.header2 h2 {
+    font-weight: normal;
+}
+
+.boundless {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+@media (min-width: 992px) {
+    #welcome-page {
+        background-image: linear-gradient(to bottom, rgba(26, 40, 120, 0.6), rgba(10, 143, 196, 0.6)), url(../sources/bg-offer-4000.jpg);
+    }
+}
+
+@media (min-height: 360px) {
+    .header1 {
+        padding-top: 25%;
+    }
+
+    .header2 {
+        padding-top: 25%;
+    }
+
+    .boundless {
+        margin-top: 30%;
+    }
+}
