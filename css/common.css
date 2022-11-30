@@ -1,0 +1,72 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+a, a:link, a:active, a:focus, a:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (min-width: 384px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 24px;
+    }
+}
